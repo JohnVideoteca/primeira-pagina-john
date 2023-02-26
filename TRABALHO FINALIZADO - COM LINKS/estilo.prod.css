@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+figcaption{
+    font-family: ubuntu;
+
+
+}
+body{
+  text-align: center
+}
+.button {
+  background-color: #ed9636; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+nav{
+    border-collapse: collapse;
+    width: 100%;
+    background-color:#2e8ec2 ;
+    width: 800px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    min-width: 80px;
+    border: 1px solid #2e8ec2;
+}
+
+nav ul li:hover {
+    background-color: #ffffff;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color:whitesmoke;
+    padding: 5px 20px;
+}
+
+nav ul li a:hover {
+    color: #2e8ec2;
+}
+
+iframe{
+    border: 0px;
+}
+
+.zoom {
+    padding: 50px;
+    
+    
+    transition: transform .2s; /* Animation */
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+    
+}
+
+ 
